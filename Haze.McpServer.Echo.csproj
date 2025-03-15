@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    
+    <Version>1.0.0</Version>
+    <Authors>zaevi</Authors>
+    <Description>A Model Context Protocol(MCP) server for echo message</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/zaevi/Haze.McpServer.Echo</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/zaevi/Haze.McpServer.Echo.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>Haze.McpServer.Echo</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="mcpdotnet" Version="1.1.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.3" />
+  </ItemGroup>
+
+</Project>
